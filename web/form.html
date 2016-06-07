@@ -1,0 +1,75 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="style.css">
+<title>appplication form</title>
+</head>
+<body>
+<div id="heading">
+            <img src="download.jpg" width="100px", height="148px", style="float:left"/>
+            <h1> HARCOURT BUTLER TECHNOLOGICAL UNIVERSITY<br/>HBTU(INDIA)</h1>
+         </div>
+         <div class="one"> <a href="about us.html">About us</a></div>
+         <div class="one"> <a href="form.html"</a>Admission Form</div>
+         <div class="one"> <a href="departments1.html">Departments</a></div>
+         <div class="one"> <a href="counselling.html">Counselling</a></div>
+         <div class="one"> <a href="a_login.html">Admin login</a></div>
+         <div class="one"> <a href="s_login.html">Student login</a></div>
+         
+          
+<form action="application_form.php" method="post" target="_self">
+   Applying for:
+    <select name="course">
+      <option value="B.Tech"> B.Tech</option>
+      <option value="M.Tech"> M.Tech</option>
+      <option value="PhD"> Phd</option>
+    </select><br/>
+   Student's Name:
+    <input type="text" name="name" required><br/>
+   Father's Name:
+    <input type="text" name="name" required><br/>
+   Mother's Name:
+    <input type="text" name="name" required><br/>
+   Date of birth:
+    <input type="date" name="bday" required><br/>
+   Gender:<br/>
+     <input type="radio" name="gender" value="male"> Male
+     <input type="radio" name="gender"> Female<br/>
+   Category:<br/>
+     <input type="radio" name="category" value="general">General
+     <input type="radio" name="category" value="SC/ST">SC/ST
+     <input type="radio" name="category" value="OBC">OBC<br/>
+   Nationality:<br/>
+     <select name:"nationality">
+        <option value="Indian" selected> Indian </option>
+        <option value="other">Other</option>
+     </select><br/>
+   Permanent Address:<br/>
+    <textarea name="address" rows="2" cols="30" required>
+    </textarea><br/>
+   Contact No.:
+    <input type="tel" name="usrtel" min="1" maxlength="10" required><br/>
+   Email:
+    <input type="email" name="email" required><br/>
+   State of Eligibility:
+    <input type="text" name="state" required><br/>
+   <fieldset>
+       <legend>High School Result</legend>
+         Percentage/CGPA:<input type="percentage" name="marks" maxlength="5"><br/>
+         Year of Passing:<input type="year" name="year"><br/>
+         School:<input type="text" name="school" max="50"><br/>
+         Board:<input type="text" name="board"><br/>
+    </fieldset>
+     <fieldset>
+       <legend>Intermediate Result:</legend>
+         Percentage:<input type="percentage" name="marks" maxlength="5" required><br/>
+         Year of Passing:<input type="year" name="year" required><br/>
+         School:<input type="text" name="school" max="50" required><br/>
+         Board:<input type="text" name="board" required><br/>
+     </fieldset>
+    Jee Mains Result(marks):
+      <input type="number" name="quantity" min="-90" max="360" required><br/>
+      <p id="submit"><input type="submit" value="submit" ></p>
+</form>
+<div id="footer"> <p>Copyright  2009 HBTI Kanpur</p></div>
+</body>
+</html>
