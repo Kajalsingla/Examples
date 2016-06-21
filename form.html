@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="bootstrap.css"/> 
+    <link type="text/css" rel="stylesheet" href="bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" href="bootstrap-theme.css"/>
+    <link type="text/css" rel="stylesheet" href="bootstrap-theme.min.css"/>
+  </head>
+<body>
+    <div class="container">
+        <h3> Application form </h3>
+        <form class="form-horizontal" role="form">
+            <div class="form-group">
+                <label for="sel1" class="col-sm-2"> Applying for: </label>
+                <div class="col-sm-10">
+                <select class="form-control" id="sel1">
+                   <option> B.Tech</option>
+                   <option> M.Tech</option>
+                   <option> Phd</option>
+                </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2" for="name">Name: </label>
+                <div class="col-sm-10">
+                <input type="text" class="form-control" id="name" placeholder="Enter your full name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2" for="name1">Father's Name:</label>
+                <div class="col-sm-10">
+                <input type="text" class="form-control" id="name1" placeholder="Enter father's name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2" for="name2">Mother's Name:</label>
+                <div class="col-sm-10">
+                <input type="text" class="form-control" id="name2" placeholder="Enter mother's name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-form col-sm-2" for="date"> Date of Birth: </label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" id="date" placeholder="dd/mm/yy">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2">Gender:</label>
+                <div class="col-sm-10">
+                <label class="radio-inline"><input type="radio" name="optradio"> Male </label>
+                <label class="radio-inline"><input type="radio" name="optradio">Female</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2">Category: </label>
+                <div class="col-sm-10">
+                <label class="radio-inline"><input type="radio" name="optradio">General</label>
+                <label class="radio-inline"><input type="radio" name="optradio">SC/ST</label>
+                <label class="radio-inline"><input type="radio" name="optradio">OBC</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2" for="sel1"> Nationality: </label>
+                <div class="col-sm-10">
+                <select class="form-control" id="sel1">
+                   <option> Indian</option>
+                   <option> Other</option>
+                </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2" for="comment"> Permanent Address:</label>
+                <div class="col-sm-10">
+                <textarea class="form-control" rows="5" id="comment">
+                </textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="number">
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2" for="email">Email:</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+            </div>
+            <div class="form-group">
+                <p> High School Result </p>
+                <div class="form-group">
+                    <label for="num" class="col-sm-2"> Percentage/CGPA:</label>
+                    <div class="col-sm-10">
+                    <input type="number" class="form-control" id="num">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-form col-sm-2" for="year"> Year: </label>
+                    <div class="col-sm-10">
+                    <input type="year" class="form-control" id="year">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2" for="school">School</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="school">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2" for="board">Board</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="board">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <p> Intermediate: </p>
+                <div class="form-group">
+                    <label class="col-sm-2" for="num"> Percentage/CGPA:</label>
+                    <div class="col-sm-10">
+                    <input type="number" class="form-control" id="num">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-form col-sm-2" for="year"> Year: </label>
+                    <div class="col-sm-10">
+                    <input type="year" class="form-control" id="year">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2" for="school">School</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="school">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2" for="board">Board</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="board">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2" for="num">Jee Mains Result:</label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" id="num">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
